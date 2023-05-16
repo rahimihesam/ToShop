@@ -24,6 +24,7 @@ Table of contents
 
 :root {
   --color-lemon: #B0f2B4;
+  --color-lemon-2: #B0f2f9;
   --color-whitee: #FFFFFC;
   --color-black: #071013;
   --color-white: #F2EFEA;
@@ -33,7 +34,7 @@ Table of contents
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Hammers', sans-serif;
   font-size: 18px !important;
   font-weight: 300 !important;
   transition: all 0.2s;
@@ -52,21 +53,27 @@ body{
   to {background-position: 100% 100%}
 }
 .h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lalezar', sans-serif;
   font-size: 48px !important;
   font-weight: 200 !important;
 }
 .h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Yekan', sans-serif;
   font-size: 30px !important;
   font-weight: 300;
 }
 .h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'iran', sans-serif;
+  font-size: 22px !important;
+}
+p{
+  font-family: 'Lalezar', sans-serif;
   font-size: 22px !important;
 }
 /* General */
 .logo { font-weight: 500 !important;}
+
+
 /*.text-warning {  color: #ede861 !important;}*/
 /*.text-muted { color: #bcbcbc !important;}*/
 /*.text-success { color: #59ab6e !important;}*/
@@ -79,6 +86,8 @@ body{
 /*  background-color: #59ab6e !important;*/
 /*  border-color: #56ae6c !important;*/
 /*}*/
+
+
 .pagination .page-link:hover {color: var(--color-black);}
 .pagination .page-link:hover, .pagination .page-link.active {
   background-color: var(--color-txtbox) ;
@@ -86,10 +95,11 @@ body{
 }
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
-#templatemo_nav_top * { font-size: .9em !important;}
-#templatemo_main_nav a { color: #000000;}
+#templatemo_nav_top * { font-size: 0.9rem !important;}
+#templatemo_main_nav a { color: #000000; font-family: 'Lalezar'; font-size: 1.4rem !important;}
 #templatemo_main_nav a:hover { color: var(--color-lemon);transition: all 0.2s}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+#templatemo_main_nav .navbar .nav-icon:hover { color: var(--color-lemon);transition: all 0.2s;}
 
 /* Hero Carousel */
 #template-mo-zay-hero-carousel { background: #efefef !important;}
@@ -100,9 +110,9 @@ body{
 .shop-top-menu a:hover { color: var(--color-lemon) !important;}
 /* Product */
 .btn-success{
-  border: 0.2rem solid var(--color-lemon);
+  border: 0.2rem solid var(--color-lemon-2);
   color: var(--color-black);
-  background: var(--color-lemon);
+  background: var(--color-lemon-2);
   border-radius: 1.5rem;
   cursor: pointer;
   text-decoration: none;
@@ -301,7 +311,7 @@ body{
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #fff;
+  border: 6px solid #fffffc;
   border-color: var(--color-lemon) transparent var(--color-lemon) transparent;
   border-radius: 50%;
   width: 60px;
@@ -318,3 +328,4 @@ body{
     transform: rotate(360deg);
   }
 }
+
