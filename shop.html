@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
     <!-- Load fonts style after rendering the layout styles -->
@@ -62,7 +62,6 @@
             توشاپ
             <!--<img src="assets/img/logo.png">-->
         </a>
-
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -74,46 +73,45 @@
                     <!--                            <a class="nav-link" href="index.html">خانه</a>-->
                     <!--                        </li>-->
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">خرید</a>
+                        <a class="nav-link" href="shop.html">
+                            <i class="fa fa-fw fa-cart-plus text-dark mt-1"></i>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">ارتباط</a>
+                        <a class="nav-link" href="contact.html">
+                            <i class="fa fa-fw fa-phone text-dark mt-1"></i>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">؟</a>
+                        <a class="nav-link" href="about.html">
+                            <i class="fa fa-fw fa-question text-dark mt-1"></i>
+                        </a>
                     </li>
-
-<!--                    <li class="dropdown"><button class="custom-btn btn-13 "><span>پالونه</span> <i class="bi bi-chevron-down dropdown-indicator"></i></button>-->
-<!--                        <ul>-->
-<!--                            <li><a href="#best-products">پرفروشترین ها</a></li>-->
-<!--                            <li><a href="#suprises">پرطرفدارترین ها</a></li>-->
-<!--                            <li><a href="#ofers">تخفیف دار ها</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-
-<!--new li added-->
-
-                    <ul class="navbar navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li class="dropdown-menu">
-                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link nav-icon d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                            <i class="fa fa-fw fa-search text-dark mt-2"></i>
+                        </a>
+                    </li>
+                    <!--                        <li class="nav-item">-->
+                    <!--                            <a class="nav-link nav-icon d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_category">-->
+                    <!--                                <i class="fa fa-fw fa-money-bill-wave-alt text-dark mt-2"></i>-->
+                    <!--                            </a>-->
+                    <!--                        </li>-->
+                    <!--new li added-->
+                    <!--                        <ul class="navbar navbar-nav">-->
+                    <!--                            <li class="nav-item dropdown">-->
+                    <!--                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+                    <!--                                    Dropdown-->
+                    <!--                                </a>-->
+                    <!--                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">-->
+                    <!--                                        <li><a class="dropdown-item" href="#">Action</a></li>-->
+                    <!--                                        <li><a class="dropdown-item" href="#">Another action</a></li>-->
+                    <!--                                </ul>-->
+                    <!--                            </li>-->
+                    <!--                        </ul>-->
+                    <!--li ended-->
                 </ul>
             </div>
-            <!-- new li added-->
             <div class="navbar align-self-center d-flex">
                 <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                     <div class="input-group">
@@ -123,9 +121,6 @@
                         </button>
                     </div>
                 </div>
-                <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                    <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                </a>
                 <a class="nav-icon position-relative text-decoration-none" href="shoppingcart.html">
                     <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                     <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
@@ -134,9 +129,9 @@
                     <i class="fa fa-fw fa-user text-dark mr-3"></i>
                     <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
                 </a>
-                </div>
             </div>
         </div>
+    </div>
     </div>
 </nav>
 <!-- Close Header -->
@@ -517,9 +512,13 @@
                 <ul class="list-unstyled text-light footer-link-list">
                     <li><a class="text-decoration-none" href="index.html">خانه</a></li>
                     <li><a class="text-decoration-none" href="category.html"> تمام دسته بندی ها</a></li>
-                    <li><a class="text-decoration-none" href="#">درباره ی ما</a></li>
-                    <li><a class="text-decoration-none" href="#">ارتباط با ما</a></li>
+                    <li><a class="text-decoration-none" href="about.html">درباره ی ما</a></li>
+                    <li><a class="text-decoration-none" href="contact.html">ارتباط با ما</a></li>
                     <li><a class="text-decoration-none" href="#">سوالات متداول</a></li>
+                    <li><a class="text-decoration-none" href="index.html#popular">پر فروشترین ها</a></li>
+                    <li><a class="text-decoration-none" href="index.html#viral">پر طرفدارترین ها</a></li>
+                    <li><a class="text-decoration-none" href="index.html#must-view">پر بازدیدترین ها</a></li>
+                    <li><a class="text-decoration-none" href="index.html#offer-section">پیشنهاد توشاپ</a></li>
                 </ul>
             </div>
 

@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
     <!-- Load fonts style after rendering the layout styles -->
@@ -76,126 +76,95 @@
 
 <body>
 <!-- Header -->
-<nav class="navbar navbar-expand-lg navbar-light shadow bg-light fixed-top" style="border-radius:0 0 2rem 2rem;">
-    <div class="container d-flex justify-content-between align-items-center">
-        <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-            توشاپ
-            <!--<img src="assets/img/logo.png">-->
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-light shadow bg-light fixed-top" style="border-radius:0 0 2rem 2rem;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                توشاپ
+                <!--<img src="assets/img/logo.png">-->
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-            <div class="flex-fill">
-                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                    <!--                        <li class="nav-item">-->
-                    <!--                            <a class="nav-link" href="index.html">خانه</a>-->
-                    <!--                        </li>-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">خرید</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">ارتباط</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">؟</a>
-                    </li>
-
-                    <!--                    <li class="dropdown"><button class="custom-btn btn-13 "><span>پالونه</span> <i class="bi bi-chevron-down dropdown-indicator"></i></button>-->
-                    <!--                        <ul>-->
-                    <!--                            <li><a href="#best-products">پرفروشترین ها</a></li>-->
-                    <!--                            <li><a href="#suprises">پرطرفدارترین ها</a></li>-->
-                    <!--                            <li><a href="#ofers">تخفیف دار ها</a></li>-->
-                    <!--                        </ul>-->
-                    <!--                    </li>-->
-
-                    <!--new li added-->
-
-                    <ul class="navbar navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <!--                        <li class="nav-item">-->
+                        <!--                            <a class="nav-link" href="index.html">خانه</a>-->
+                        <!--                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">
+                                <i class="fa fa-fw fa-cart-plus text-dark mt-1"></i>
                             </a>
-                                <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                            </ul>
                         </li>
-<!--                        <li class="nav-item dropdown">-->
-<!--                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-<!--                                Dropdown-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <i class="fa fa-fw fa-phone text-dark mt-1"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <i class="fa fa-fw fa-question text-dark mt-1"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icon d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                                <i class="fa fa-fw fa-search text-dark mt-2"></i>
+                            </a>
+                        </li>
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link nav-icon d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_category">-->
+<!--                                <i class="fa fa-fw fa-money-bill-wave-alt text-dark mt-2"></i>-->
 <!--                            </a>-->
-<!--                                <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">-->
-<!--                                    <li><a class="dropdown-item" href="#">Action</a></li>-->
-<!--                                    <li><a class="dropdown-item" href="#">Another action</a></li>-->
-<!--                            </ul>-->
-<!--                        </li><li class="nav-item dropdown">-->
-<!--                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-<!--                                Dropdown-->
-<!--                            </a>-->
-<!--                                <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">-->
-<!--                                    <li><a class="dropdown-item" href="#">Action</a></li>-->
-<!--                                    <li><a class="dropdown-item" href="#">Another action</a></li>-->
-<!--                            </ul>-->
-<!--                        </li><li class="nav-item dropdown">-->
-<!--                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-<!--                                Dropdown-->
-<!--                            </a>-->
-<!--                                <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">-->
-<!--                                    <li><a class="dropdown-item" href="#">Action</a></li>-->
-<!--                                    <li><a class="dropdown-item" href="#">Another action</a></li>-->
-<!--                            </ul>-->
-<!--                        </li><li class="nav-item dropdown">-->
-<!--                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-<!--                                Dropdown-->
-<!--                            </a>-->
-<!--                                <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">-->
-<!--                                    <li><a class="dropdown-item" href="#">Action</a></li>-->
-<!--                                    <li><a class="dropdown-item" href="#">Another action</a></li>-->
-<!--                            </ul>-->
 <!--                        </li>-->
+                        <!--new li added-->
+<!--                        <ul class="navbar navbar-nav">-->
+<!--                            <li class="nav-item dropdown">-->
+<!--                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+<!--                                    Dropdown-->
+<!--                                </a>-->
+<!--                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDarkDropdownMenuLink">-->
+<!--                                        <li><a class="dropdown-item" href="#">Action</a></li>-->
+<!--                                        <li><a class="dropdown-item" href="#">Another action</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+                        <!--li ended-->
                     </ul>
-                </ul>
-            </div>
-            <!-- new li added-->
-            <div class="navbar align-self-center d-flex">
-                <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                    <div class="input-group">
-                        <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                        <button type="submit" class="input-group-text">
-                            <i class="fa fa-fw fa-search"></i>
-                        </button>
-                    </div>
                 </div>
-                <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                    <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                </a>
-                <a class="nav-icon position-relative text-decoration-none" href="shoppingcart.html">
-                    <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                    <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
-                </a>
-                <a class="nav-icon position-relative text-decoration-none" href="login.html">
-                    <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                    <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
-                </a>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <button type="submit" class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <a class="nav-icon position-relative text-decoration-none" href="shoppingcart.html">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="login.html">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-</nav>
-<!-- Close Header -->
+        </div>
+    </nav>
+    <!-- Close Header -->
     <br>
     <br>
     <br>
     <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade bg-transparent" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="w-100 pt-1 mb-5 text-right">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+            <form action="" method="get" class="modal-content modal-body border-0 p-0 bg-transparent">
                 <div class="input-group mb-2">
                     <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
                     <button type="submit" class="input-group-text bg-success text-light">
@@ -205,8 +174,22 @@
             </form>
         </div>
     </div>
-
-
+    <!--end of modal-->
+    <!-- category -->
+<!--    <div class="modal fade bg-transparent" id="templatemo_category" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+<!--        <div class="modal-dialog modal-lg" role="document">-->
+<!--            <div class="container">-->
+<!--                <h2 class="h2">اسم دسته بندی</h2>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-lg-3"><img src="./assets/img/logo.png" alt="">><p>price</p><button class="custom-btn btn-15">hh</button> </div>-->
+<!--                    <div class="col-lg-3"><img src="./assets/img/logo.png" alt=""></div>-->
+<!--                    <div class="col-lg-3"><img src="./assets/img/logo.png" alt=""></div>-->
+<!--                    <div class="col-lg-3"><img src="./assets/img/logo.png" alt=""></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <!--end of category-->
 
     <!-- Start Banner Here -->
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -285,193 +268,203 @@
         </a>
     </div>
     <!-- End Banner Hero -->
-
-<br>
-<br>
-<br>
-<!-- Start offer -->
-<section class="py-5 bg-gradient offer">
-    <div class="container">
-        <div class="row text-center p-2 pb-3">
-            <h4 class="h2">تخفیف داره</h4>
+    <br>
+    <br>
+    <br>
+    <!-- Start offer -->
+    <section class="py-5 bg-gradient offer" id="offer-section">
+        <div class="container">
+            <div class="row text-center p-2 pb-3">
+                <h4 class="h2">تخفیف داره</h4>
+            </div>
+            <!--Start Carousel Wrapper-->
+            <div id="carousel-related-product">
+                <div class="p-2 pb-3" >
+                    <img class="card-img rounded-0 img-fluid" src="assets/img/shop_03.jpg">
+                </div>
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li class="h4">
+                                    تعداد لایک
+                                </li>
+                            </ul>
+                            <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                            <p class="text-center text-danger mb-0">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li class="h4">
+                                    تعداد لایک
+                                </li>
+                            </ul>
+                            <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                            <p class="text-center text-danger mb-0">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li class="h4">
+                                    تعداد لایک
+                                </li>
+                            </ul>
+                            <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                            <p class="text-center text-danger mb-0">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li class="h4">
+                                    تعداد لایک
+                                </li>
+                            </ul>
+                            <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                            <p class="text-center text-danger mb-0">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0" style="border-radius:0 0 2rem 2rem !important;">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li class="h4">
+                                    تعداد لایک
+                                </li>
+                            </ul>
+                            <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                            <p class="text-center text-danger mb-0">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!--Start Carousel Wrapper-->
-        <div id="carousel-related-product">
-            <div class="p-2 pb-3" >
-                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_03.jpg">
-            </div>
-            <div class="p-2 pb-3">
-                <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
-                    <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
-                        <ul class="list-unstyled d-flex justify-content-center mb-1">
-                            <li class="h4">
-                                تعداد لایک
-                            </li>
-                        </ul>
-                        <p class="text-center text-decoration-line-through mb-0">$20.00</p>
-                        <p class="text-center text-danger mb-0">$20.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 pb-3">
-                <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
-                    <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
-                        <ul class="list-unstyled d-flex justify-content-center mb-1">
-                            <li class="h4">
-                                تعداد لایک
-                            </li>
-                        </ul>
-                        <p class="text-center text-decoration-line-through mb-0">$20.00</p>
-                        <p class="text-center text-danger mb-0">$20.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 pb-3">
-                <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
-                    <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
-                        <ul class="list-unstyled d-flex justify-content-center mb-1">
-                            <li class="h4">
-                                تعداد لایک
-                            </li>
-                        </ul>
-                        <p class="text-center text-decoration-line-through mb-0">$20.00</p>
-                        <p class="text-center text-danger mb-0">$20.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 pb-3">
-                <div class="product-wap card rounded-0 shadow" style="border-radius:0 0 2rem 2rem !important;">
-                    <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
-                        <ul class="list-unstyled d-flex justify-content-center mb-1">
-                            <li class="h4">
-                                تعداد لایک
-                            </li>
-                        </ul>
-                        <p class="text-center text-decoration-line-through mb-0">$20.00</p>
-                        <p class="text-center text-danger mb-0">$20.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 pb-3">
-                <div class="product-wap card rounded-0" style="border-radius:0 0 2rem 2rem !important;">
-                    <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
-                        <ul class="list-unstyled d-flex justify-content-center mb-1">
-                            <li class="h4">
-                                تعداد لایک
-                            </li>
-                        </ul>
-                        <p class="text-center text-decoration-line-through mb-0">$20.00</p>
-                        <p class="text-center text-danger mb-0">$20.00</p>
-                    </div>
-                </div>
-            </div>
+    </section>
+    <!-- End offer -->
 
+    <!--add-->
+<!--    <div class="container w-50 h-75">-->
+<!--           <div class="row d-flex">-->
+<!--               <a href="" class="card-link"><img class="col-lg-4 col-md-4 col-sm-12" src="./assets/img/logo.png" alt=""></a>-->
+<!--               <a href="" class="card-link"><img class="col-lg-4 col-md-4 col-sm-12" src="./assets/img/logo.png" alt=""></a>-->
+<!--               <a href="" class="card-link"><img class="col-lg-4 col-md-4 col-sm-12" src="./assets/img/logo.png" alt=""></a>-->
+<!--           </div>-->
+<!--    </div>-->
 
-
-
-
-
-        </div>
+    <div class="d-flex justify-content-between">
+        <div><a href=""><img src="./assets/img/logo.png" alt=""></a></div>
+        <div><a href=""><img src="./assets/img/logo.png" alt=""></a></div>
+        <div><a href=""><img src="./assets/img/logo.png" alt=""></a></div>
     </div>
-</section>
-<!-- End offer -->
+    <!--end of add-->
+
     <!-- Start Categories of The Month -->
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
                 <h1 class="h1">دسته بندی ها</h1>
-                <p>
+                <h3 class="h3">
                     .دسته بندی هایی که در این سایت وجود دارد
-                </p>
+                </h3>
             </div>
         </div>
         <div class="row justify-content-between">
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border" alt="error"></a>
                 <h2 class="text-center mt-3 mb-3 h2">ساعت</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border" alt="error"></a>
                 <h2 class="h5 text-center mt-3 mb-3 h2">موبایل</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border" alt="error"></a>
                 <h2 class="h5 text-center mt-3 mb-3 h2">کنسول</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border" alt="error"></a>
-                <h2 class="h5 text-center mt-3 mb-3 h2">لوازم سخت افزار</h2>
+                <h2 class="h5 text-center mt-3 mb-3 h2"> سخت افزار</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border" alt="error"></a>
                 <h2 class="h5 text-center mt-3 mb-3 h2">لپتاپ</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border" alt="error"></a>
                 <h2 class="h5 text-center mt-3 mb-3 h2">دوربین</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border" alt="error"></a>
                 <h2 class="h5 text-center mt-3 mb-3 h2">لوازم جانبی</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
+            <div class="col-6 col-md-3 col-lg-3 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border" alt="error"></a>
                 <h2 class="h5 text-center mt-3 mb-3 h2">کامپیوتر کامل</h2>
                 <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
@@ -480,9 +473,159 @@
     </section>
     <!-- End Categories of The Month -->
 
+    <!--must view-->
+    <h1 class="h1 text-center" id="must-view">پر بازدیدترین ها</h1>
+    <section class="container py-5 d-flex">
+        <div class="row justify-content-between">
+            <div class="row col-lg-6 bg-light border-rr border-danger ">
+                <h2 class="h2 text-center">اسم دسته بندی</h2>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0" style="border-radius:0 0 2rem 2rem !important;">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li class="h4">
+                                        تعداد لایک
+                                    </li>
+                                </ul>
+                                <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                                <p class="text-center text-danger mb-0">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <a href="#"><img src="./assets/img/category_img_02.jpg" class=" img-fluid border" alt="error"></a>
+                    <h2 class="h5 text-center mt-3 mb-3 h2">موبایل</h2>
+                    <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
+                </div>
+            </div>
+            <div class="row col-lg-5 bg-light border-rr">
+                <h2 class="h2 text-center">اسم دسته بندی</h2>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0" style="border-radius:0 0 2rem 2rem !important;">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li class="h4">
+                                        تعداد لایک
+                                    </li>
+                                </ul>
+                                <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                                <p class="text-center text-danger mb-0">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <a href="#"><img src="./assets/img/category_img_02.jpg" class=" img-fluid border" alt="error"></a>
+                    <h2 class="h5 text-center mt-3 mb-3 h2">موبایل</h2>
+                    <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5 d-flex">
+        <div class="row justify-content-between">
+            <div class="row col-lg-5 bg-light border-rr border-danger ">
+                <h2 class="h2 text-center">اسم دسته بندی</h2>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0" style="border-radius:0 0 2rem 2rem !important;">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li class="h4">
+                                        تعداد لایک
+                                    </li>
+                                </ul>
+                                <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                                <p class="text-center text-danger mb-0">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <a href="#"><img src="./assets/img/category_img_02.jpg" class=" img-fluid border" alt="error"></a>
+                    <h2 class="h5 text-center mt-3 mb-3 h2">موبایل</h2>
+                    <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
+                </div>
+            </div>
+            <div class="row col-lg-6 bg-light border-rr">
+                <h2 class="h2 text-center">اسم دسته بندی</h2>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0" style="border-radius:0 0 2rem 2rem !important;">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none m-1">اسم محصول</a>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li class="h4">
+                                        تعداد لایک
+                                    </li>
+                                </ul>
+                                <p class="text-center text-decoration-line-through mb-0">$20.00</p>
+                                <p class="text-center text-danger mb-0">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-6 p-5 mt-3">
+                    <a href="#"><img src="./assets/img/category_img_02.jpg" class=" img-fluid border" alt="error"></a>
+                    <h2 class="h5 text-center mt-3 mb-3 h2">موبایل</h2>
+                    <p class="text-center"><button class="custom-btn btn-13">Go Shop</button></p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--add-->
+    <div class="d-flex justify-content-around">
+        <div><a href=""><img src="./assets/img/logo.png" alt=""></a></div>
+        <div><a href=""><img src="./assets/img/logo.png" alt=""></a></div>
+    </div>
+<!--end of add-->
+    <!--end of must vwo-->
+
 
     <!-- Start popular -->
-    <section class="bg-light" style="border-radius:2rem 2rem 0 0">
+    <section class="bg-light" style="border-radius:2rem 2rem 0 0" id="popular">
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
@@ -569,9 +712,14 @@
         </div>
     </section>
     <!-- End popular -->
-
+    <!--add-->
+        <div class="d-flex justify-content-around">
+            <div><a href=""><img src="./assets/img/logo.png" alt=""></a></div>
+            <div><a href=""><img src="./assets/img/logo.png" alt=""></a></div>
+        </div>
+    <!--end of add-->
     <!-- Start mony -->
-    <section class="bg-light">
+    <section class="bg-light" id="viral">
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
@@ -703,9 +851,13 @@
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="index.html">خانه</a></li>
                         <li><a class="text-decoration-none" href="category.html"> تمام دسته بندی ها</a></li>
-                        <li><a class="text-decoration-none" href="#">درباره ی ما</a></li>
-                        <li><a class="text-decoration-none" href="#">ارتباط با ما</a></li>
+                        <li><a class="text-decoration-none" href="about.html">درباره ی ما</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">ارتباط با ما</a></li>
                         <li><a class="text-decoration-none" href="#">سوالات متداول</a></li>
+                        <li><a class="text-decoration-none" href="#popular">پر فروشترین ها</a></li>
+                        <li><a class="text-decoration-none" href="#viral">پر طرفدارترین ها</a></li>
+                        <li><a class="text-decoration-none" href="#must-view">پر بازدیدترین ها</a></li>
+                        <li><a class="text-decoration-none" href="#offer-section">پیشنهاد توشاپ</a></li>
                     </ul>
                 </div>
 
