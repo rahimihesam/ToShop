@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/toshop/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/toshop/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/toshop/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/toshop/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/league/flysystem-local" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/toshop/vendor/psr/log" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
