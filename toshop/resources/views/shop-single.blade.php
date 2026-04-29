@@ -4,7 +4,189 @@
 
 @section('style')
 
+<<<<<<< HEAD:toshop/resources/views/shop-single.blade.php
 @endsection
+=======
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+
+    <style>
+        @font-face {
+            font-family: 'Lalezar';
+            src: url('assets/webfonts/Lalezar-Regular.eot'); /* IE9 Compat Modes */
+            src: url('assets/webfonts/Lalezar-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('assets/webfonts/Lalezar-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('assets/webfonts/Lalezar-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+            url('assets/webfonts/Lalezar-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+        }
+        @font-face {
+            font-family: 'Yekan';
+            src: url('assets/webfonts/Yekan.eot'); /* IE9 Compat Modes */
+            src: url('assets/webfonts/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('assets/webfonts/Yekan.woff2') format('woff2'), /* Super Modern Browsers */
+            url('assets/webfonts/Yekan.woff') format('woff'), /* Pretty Modern Browsers */
+            url('assets/webfonts/Yekan.ttf')  format('truetype'); /* Safari, Android, iOS */
+        }
+        @font-face {
+            font-family: 'iran';
+            src: url('assets/webfonts/iran.eot'); /* IE9 Compat Modes */
+            src: url('assets/webfonts/iran.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('assets/webfonts/iran.woff2') format('woff2'), /* Super Modern Browsers */
+            url('assets/webfonts/iran.woff') format('woff'), /* Pretty Modern Browsers */
+            url('assets/webfonts/iran.ttf')  format('truetype'); /* Safari, Android, iOS */
+        }
+        @font-face {
+            font-family: 'Rye';
+            src: url('assets/webfonts/Rye-Regular.eot'); /* IE9 Compat Modes */
+            src: url('assets/webfonts/Rye-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('assets/webfonts/Rye-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('assets/webfonts/Rye-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+            url('assets/webfonts/Rye-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+        }
+        @font-face {
+            font-family: 'Abr';
+            src: url('assets/webfonts/AbrilFatface-Regular.eot'); /* IE9 Compat Modes */
+            src: url('assets/webfonts/AbrilFatface-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('assets/webfonts/AbrilFatface-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('assets/webfonts/AbrilFatface-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+            url('assets/webfonts/AbrilFatface-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+        }
+        @font-face {
+            font-family: 'Hammers';
+            src: url('assets/webfonts/HammersmithOne-Regular.eot'); /* IE9 Compat Modes */
+            src: url('assets/webfonts/HammersmithOne-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('assets/webfonts/HammersmithOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('assets/webfonts/HammersmithOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+            url('assets/webfonts/HammersmithOne-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light shadow bg-light fixed-top" style="border-radius:0 0 2rem 2rem;">
+        <div class="container justify-content-between align-items-center">
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                
+                <!-- <img src="assets/img/logo.png"> -->
+                توشاپ
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <!--                        <li class="nav-item">-->
+                        <!--                            <a class="nav-link" href="index.html">خانه</a>-->
+                        <!--                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">
+
+
+                                <i class="fa fa-fw fa-bars "></i>
+
+                              
+                                دسته بندی ها
+
+                            </a>
+                        </li>
+                        
+
+
+                        
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <i class="	fa fa-quote-left "></i>                  
+                                              درباره ما
+                               
+                            </a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="fas fa-newspaper "></i>                  
+                                      توشاپ مگ
+                               
+                            </a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link"  href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                                <i class="fa fa-search "></i>                  
+                                          جستجو
+                               
+                            </a>
+                        </li> -->
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+
+
+                                <i class="fas fa-cogs" ></i>
+                                اسمبل هوشمند
+                             
+                            </a>
+                        </li>
+
+                  
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <button type="submit" class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="nav-icon position-relative text-decoration-none" href="contact.html">
+                        <i class="fa fa-fw fa-phone " style="font-size: 36px;" ></i>
+
+                    </a>
+
+                    <a class="nav-icon position-relative text-decoration-none" href="shoppingcart.html">
+                        <i class="fa fa-shopping-cart" style="font-size:36px"></i>
+
+
+                       
+                        
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="login.html">
+                        <i class="fa fa-user " style="font-size: 36px;"></i>
+
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none"  href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-search " style="font-size: 36px;"></i>                  
+                              
+                       
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!-- Close Header -->
+<br>
+<br>
+<br>
+>>>>>>> hesam-rahimi:shop-single.html
 
 @section('content')
     <!-- Modal -->
